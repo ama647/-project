@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+/* General reset for header */
+header {
+    display: flex;
+    justify-content: space-between; /* Spread out the sections */
+    align-items: center; /* Align items vertically */
+    height: 100px;
+    padding: 0 20px; /* Add spacing inside the header */
+    background-color: #faf8f3;
+  }
+  
+  /* Style for the left section */
+  .header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  /* Style for the logo container (centered) */
+  .logo-container {
+    text-align: center;
+    flex-grow: 1; /* Allow it to grow to center the logo */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    max-width: 105px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style for the right section */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between icons */
+    margin-right: 100px;
+  }
+  
+  /* Icons styling (optional) */
+  .header-left i{
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .header-right i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+   .navbar {
+    flex-grow: 1; /* Let the navbar take space between left and right */
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .navbar ul li {
+    margin: 0 15px; /* Space between links */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color:#4d4d4d;
+    font-size: 16px;
+  }
+
+  .navbar ul li:hover {
+    text-decoration: underline;
+  }
